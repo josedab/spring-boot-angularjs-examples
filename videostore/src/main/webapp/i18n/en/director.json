@@ -1,0 +1,23 @@
+{
+    "videostoreApp": {
+        "director" : {
+            "home": {
+                "title": "Directors",
+                "createLabel": "Create a new Director",
+                "createOrEditLabel": "Create or edit a Director"
+            },
+            "created": "A new Director is created with identifier {{ param }}",
+            "updated": "A Director is updated with identifier {{ param }}",
+            "deleted": "A Director is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Director {{ id }}?"
+            },
+            "detail": {
+                "title": "Director"
+            },
+            "name": "Name",
+            "birthdate": "Birthdate",
+            "movie": "Movie"
+        }
+    }
+}
