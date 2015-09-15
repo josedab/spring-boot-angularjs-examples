@@ -1,0 +1,22 @@
+{
+    "videostoreApp": {
+        "movie" : {
+            "home": {
+                "title": "Movies",
+                "createLabel": "Créer un nouveau Movie",
+                "createOrEditLabel": "Créer ou éditer un Movie"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Movie {{ id }} ?"
+            },
+            "detail": {
+                "title": "Movie"
+            },
+            "name": "Name",
+            "releasedDate": "ReleasedDate",
+            "description": "Description",
+            "director": "Director"
+        }
+    }
+}
+
