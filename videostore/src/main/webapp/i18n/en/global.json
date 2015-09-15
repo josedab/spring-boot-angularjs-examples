@@ -7,6 +7,7 @@
             "entities": {
                 "main": "Entities",
                 "director": "Director",
+                "movie": "Movie",
                 "additionalEntity": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
