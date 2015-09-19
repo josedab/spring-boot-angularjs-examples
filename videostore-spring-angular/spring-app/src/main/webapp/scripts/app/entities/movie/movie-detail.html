@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="videostoreApp.movie.detail.title">Movie</span> {{movie.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="videostoreApp.movie.name">Name</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{movie.name}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="videostoreApp.movie.releasedDate">ReleasedDate</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{movie.releasedDate}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="videostoreApp.movie.description">Description</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{movie.description}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="videostoreApp.movie.director">director</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="director.detail({id:movie.director.id})">{{movie.director.name}}</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

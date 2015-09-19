@@ -1,0 +1,28 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "movie",
+            "otherEntityName": "movie",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "director"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "birthdate",
+            "fieldType": "DateTime",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20150914190207",
+    "dto": "no",
+    "pagination": "pager"
+}
