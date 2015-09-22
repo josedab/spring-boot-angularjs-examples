@@ -1,0 +1,21 @@
+{
+    "videostoreApp": {
+        "director" : {
+            "home": {
+                "title": "Directors",
+                "createLabel": "Créer un nouveau Director",
+                "createOrEditLabel": "Créer ou éditer un Director"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Director {{ id }} ?"
+            },
+            "detail": {
+                "title": "Director"
+            },
+            "name": "Name",
+            "birthdate": "Birthdate",
+            "movie": "Movie"
+        }
+    }
+}
+
