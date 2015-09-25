@@ -4,6 +4,19 @@
   "description": "Description for videostore",
   "private": true,
   "dependencies": {
+    "express": "~4.9.0",
+    "morgan": "~1.0.0",
+    "body-parser": "~1.5.0",
+    "method-override": "~1.0.0",
+    "serve-favicon": "~2.0.1",
+    "cookie-parser": "~1.0.1",
+    "express-session": "~1.0.2",
+    "errorhandler": "~1.0.0",
+    "compression": "~1.0.1",
+    "lodash": "~2.4.1",
+    "ejs": "~0.8.4",
+    "composable-middleware": "^0.3.0",
+    "connect-mongo": "^0.8.1"
   },
   "devDependencies": {
     "grunt": "0.4.5",
@@ -43,6 +56,7 @@
     "karma": "0.12.35",
     "karma-coverage": "0.4.2",
     "karma-jenkins-reporter": "0.0.2",
+    "connect-livereload": "~0.4.0",
     "generator-jhipster": "2.20.0",
     "lodash": "3.3.1",
     "xml2js": "0.4.5",
@@ -56,6 +70,8 @@
     "node": ">=0.12.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "start": "node server/app.js",
+    "test": "grunt test",
+    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   }
 }
